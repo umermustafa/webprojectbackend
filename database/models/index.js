@@ -3,8 +3,8 @@
 const Task = require('./Task');
 const Employee = require('./Employee');
 
-Task.belongsTo(Employee);// Employee
-Employee.hasMany(Task); // Task
+Task.belongsTo(Employee);
+Employee.hasMany(Task);
 
 module.exports = {
     Task,
